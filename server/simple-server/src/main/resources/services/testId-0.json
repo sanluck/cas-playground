@@ -1,0 +1,13 @@
+{
+    "@class": "org.jasig.cas.services.RegexRegisteredService",
+    "serviceId": "http://localhost:8080/cas-client-1/.*",
+    "name": "testId",
+	"description": "This is test sub-service.",
+    "id": 1,
+	"logoutType" : "BACK_CHANNEL",
+    "accessStrategy": {
+        "@class": "org.jasig.cas.services.DefaultRegisteredServiceAccessStrategy",
+        "enabled": true,
+        "ssoEnabled": true
+    }
+}
